@@ -1,4 +1,4 @@
-# RecycleScan
+# RecycloScan
 
 A mobile app that scans trash items and tells you whether they are recyclable, with explanations and education on common recycling misconceptions.
 
