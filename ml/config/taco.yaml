@@ -1,0 +1,74 @@
+# TACO dataset configuration for YOLOv8 fine-tuning
+# Paths are relative to this file's location (ml/config/)
+# data/processed/ lives two levels up from here
+
+path: ../../data/processed
+train: train/images
+val: val/images
+test: test/images
+
+nc: 60
+
+# Class names must match EXACTLY the keys in backend/app/data/recycling_rules.json
+# and the values in frontend/src/constants/categories.ts (IDs 0–59)
+names:
+  - Aluminium foil          #  0
+  - Battery                 #  1
+  - Aluminium blister pack  #  2
+  - Carded blister pack     #  3
+  - Other plastic bottle    #  4
+  - Clear plastic bottle    #  5
+  - Glass bottle            #  6
+  - Plastic bottle cap      #  7
+  - Metal bottle cap        #  8
+  - Broken glass            #  9
+  - Food Can                # 10
+  - Aerosol                 # 11
+  - Drink can               # 12
+  - Toilet tube             # 13
+  - Other carton            # 14
+  - Egg carton              # 15
+  - Drink carton            # 16
+  - Corrugated carton       # 17
+  - Meal carton             # 18
+  - Pizza box               # 19
+  - Paper cup               # 20
+  - Disposable plastic cup  # 21
+  - Foam cup                # 22
+  - Glass cup               # 23
+  - Other plastic cup       # 24
+  - Food waste              # 25
+  - Glass jar               # 26
+  - Plastic jar             # 27
+  - Plastic lid             # 28
+  - Metal lid               # 29
+  - Other plastic           # 30
+  - Magazine paper          # 31
+  - Tissues                 # 32
+  - Wrapping paper          # 33
+  - Normal paper            # 34
+  - Paper bag               # 35
+  - Plastified paper bag    # 36
+  - Plastic film            # 37
+  - Six pack rings          # 38
+  - Garbage bag             # 39
+  - Other plastic wrapper   # 40
+  - Single-use carrier bag  # 41
+  - Polypropylene bag       # 42
+  - Crisp packet            # 43
+  - Spread tub              # 44
+  - Tupperware              # 45
+  - Disposable food container # 46
+  - Foam food container     # 47
+  - Other plastic container # 48
+  - Plastic gloves          # 49
+  - Plastic utensils        # 50
+  - Pop tab                 # 51
+  - Rope                    # 52
+  - Shoe                    # 53
+  - Squeezable tube         # 54
+  - Plastic straw           # 55
+  - Paper straw             # 56
+  - Styrofoam piece         # 57
+  - Unlabeled litter        # 58
+  - Cigarette               # 59

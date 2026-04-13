@@ -1,0 +1,58 @@
+# ── Dataset & model weights (too large for git) ───────────────────────
+data/
+!data/.gitkeep
+
+# ── Large binary files ─────────────────────────────────────────────────
+*.pptx
+*.pt
+*.db 
+
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ── Virtual environments ───────────────────────────────────────────────
+ml/.venv/
+backend/.venv/
+.venv/
+venv/
+env/
+
+# ── Compiled Python / C extensions ────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.so
+*.dylib
+
+# ── Backend runtime files ──────────────────────────────────────────────
+backend/*.db
+backend/recyclescan.db
+*.db
+
+# ── Environment variables ──────────────────────────────────────────────
+.env
+!.env.example
+
+# ── macOS ──────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── IDE ────────────────────────────────────────────────────────────────
+.idea/
+*.swp
+*.swo
+
+
+stitch design
+pipeline.txt
+project_structure
