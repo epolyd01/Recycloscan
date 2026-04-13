@@ -1,6 +1,6 @@
 # RecycleRight
 
-A mobile app that scans trash items and tells you whether they are recyclable — with explanations and education on common recycling misconceptions.
+A mobile app that scans trash items and tells you whether they are recyclable, with explanations and education on common recycling misconceptions.
 
 Built with React Native (Expo), FastAPI, and YOLOv8 fine-tuned on the TACO dataset.
 
@@ -41,7 +41,6 @@ recyclescan/
 ├── backend/           # FastAPI server
 ├── ml/                # YOLOv8 training pipeline
 ├── data/              # Dataset and trained model weights (gitignored)
-├── docker-compose.yml
 └── .env.example
 ```
 
@@ -202,3 +201,7 @@ The `data/` folder is gitignored. It contains:
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - [Expo](https://expo.dev)
 - [FastAPI](https://fastapi.tiangolo.com)
+
+## LICENSE
+
+MIT
