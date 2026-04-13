@@ -69,6 +69,10 @@ def run_inference(image_bytes: bytes) -> list[dict[str, Any]]:
     ]
     Returns an empty list if nothing is detected above the confidence threshold.
     """
+    if settings.mock_inference:
+        logger.info("MOCK inference returning 'Clear plastic bottle' (conf=0.87)")
+        return [{"class_id": 5, "class_name": "Clear plastic bottle", "confidence": 0.87, "bbox": [0, 0, 640, 640]}]
+
     model = get_model()
 
     try:
